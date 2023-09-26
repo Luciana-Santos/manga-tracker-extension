@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Manga Tracker",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://mangalivre.net/*/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["img/logo.svg", "img/dashboard.svg"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
